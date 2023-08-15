@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item
+    android:id="@+id/coinFlip"
+     android:title="COIN FLIP"
+    android:icon="@drawable/coin"
+    android:iconTint="@color/purple_200" />
+
+
+
+    <item
+        android:id="@+id/diceThrow"
+        android:title="DICE THROW"
+       android:icon="@drawable/kocka"
+        android:iconTint="@color/purple_200"  />
+
+
+    <item
+        android:id="@+id/numberGenerator"
+        android:title="NUMBER GENERATOR"
+        android:icon="@drawable/baseline_question_mark_24"
+        />
+
+
+
+
+
+
+
+
+
+</menu>

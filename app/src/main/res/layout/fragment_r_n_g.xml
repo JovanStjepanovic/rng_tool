@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RNGFragment"
+    android:background="#D8E3E4">
+
+<EditText
+    android:id="@+id/editTextLowerScale"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="LOWER SCALE"
+    android:textColorHint="@color/black"
+    android:textColor="@color/black"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="140dp"
+    android:inputType="number"  />
+
+    <EditText
+        android:id="@+id/editTextUpperScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="UPPER SCALE"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+       android:layout_marginTop="170dp"
+        android:layout_marginLeft="140dp"
+        android:inputType="number"/>
+
+<Button
+    android:id="@+id/buttonGenerate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="GENERATE"
+    android:background="@color/black"
+    android:textColor="@color/white"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="160dp" />
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+       android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="30sp"/>
+
+
+
+
+
+
+</FrameLayout>
