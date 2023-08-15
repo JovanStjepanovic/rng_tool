@@ -86,7 +86,7 @@ public class DiceFragment extends Fragment {
              throwDice(R.drawable.dice3);
          }
          else if (numb==4) {
-             throwDice(R.drawable.dicee4);
+             throwDice(R.drawable.dice4);
 
          }
          else if (numb==5) {

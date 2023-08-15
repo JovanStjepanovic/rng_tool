@@ -5,7 +5,7 @@
 <item
     android:id="@+id/coinFlip"
      android:title="COIN FLIP"
-    android:icon="@drawable/coin"
+    android:icon="@drawable/coin_flip"
     android:iconTint="@color/purple_200" />
 
 
